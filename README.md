@@ -11,6 +11,7 @@ A machine learning-powered API that predicts mall demand using Ridge Regression,
 - 🌐 **API Interface** using FastAPI, served with Gunicorn + Uvicorn workers
 - 🐳 **Dockerized** for portability and consistent deployment
 - ⚡ **Load Testing** with Locust (1000 users, ~319 RPS, latency measured at 99th percentile)
+- 🗃️ **Logging** logged the predictions and input features for data persisitency and retraining
 
 ---
 
