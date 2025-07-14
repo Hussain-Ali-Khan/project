@@ -1,6 +1,6 @@
 # 🛒 Mall Demand Forecasting API
 
-A machine learning-powered API that predicts mall demand using Ridge Regression, optimized with GridSearchCV. The model is containerized using Docker and deployed with Gunicorn + Uvicorn for production readiness. Load testing was performed using Locust to benchmark performance under concurrent usage.
+A machine learning-powered API that predicts mall demand using Ridge Regression, optimized with GridSearchCV. The model is containerized using Docker and deployed with Gunicorn + Uvicorn for production readiness. Load testing was performed using Locust to benchmark performance under concurrent usage.inputs are loggged on postgresql for logging and checking 
 
 ---
 
@@ -18,7 +18,7 @@ A machine learning-powered API that predicts mall demand using Ridge Regression,
 
 - **Modeling**: Ridge Regression, Scikit-learn
 - **API**: FastAPI
-- **Deployment**: Docker, Gunicorn, Uvicorn
+- **Deployment**: Docker, Gunicorn, Uvicorn , postgresSQL
 - **Testing**: Locust
 - **Environment**: Python 3.12, Pip, Jupyter/Colab
 
@@ -33,6 +33,3 @@ git clone https://github.com/yourusername/project.git
 cd project
 docker build -t mall-demand-api .
 docker run -p 5000:5000 mall-demand-api
-![alt text](<Screenshot 2025-06-16 120527.png>)
-![alt text](<Screenshot 2025-07-04 192131.png>)
-![alt text](<Screenshot 2025-07-04 192145.png>)
