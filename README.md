@@ -33,3 +33,6 @@ git clone https://github.com/yourusername/project.git
 cd project
 docker build -t mall-demand-api .
 docker run -p 5000:5000 mall-demand-api
+![alt text](<Screenshot 2025-06-16 120527.png>)
+![alt text](<Screenshot 2025-07-04 192131.png>)
+![alt text](<Screenshot 2025-07-04 192145.png>)
